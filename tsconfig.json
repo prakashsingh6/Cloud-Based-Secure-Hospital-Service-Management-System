@@ -1,0 +1,21 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "compilerOptions": {
+    "paths": {
+      "@/components/ui/*": ["./*"],
+      "@/sections/*": ["./*"],
+      "@/hooks/*": ["./*"],
+      "@/lib/*": ["./*"],
+      "@/types": ["./index.ts"],
+      "@/*": ["./*"]
+    }
+  }
+}
